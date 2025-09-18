@@ -1,7 +1,7 @@
 import java.util.*;
 import ds_v1.BinaryTree.TreeNode;
 // passed 289/289 testcases
-public class Solution {
+public class question_day1 {
     public static boolean isSymmetric(TreeNode<Integer> root) {
         if (root == null) return true;
         return isMirror(root.left, root.right);
